@@ -28,13 +28,15 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>FacebookAppID</key>
 	<string>568137586693493</string>
 	<key>FacebookDisplayName</key>
 	<string>Keeper</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allows user to upload profile photo</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>RobotoRegular.ttf</string>
