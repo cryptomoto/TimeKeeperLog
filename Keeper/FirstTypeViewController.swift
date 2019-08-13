@@ -42,7 +42,7 @@ class FirstTypeViewController: UIViewController {
         containerView.backgroundColor = UIColor.clear
         
         
-        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(TypesViewController.AddNew))
+        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(FirstTypeViewController.AddNew))
         navigationItem.rightBarButtonItem = addButton
         
     }
@@ -52,7 +52,7 @@ class FirstTypeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func AddNew() {
+    @objc func AddNew() {
         let alert = UIAlertController(title: "Add new type", message: nil, preferredStyle: .alert)
         alert.addTextField(configurationHandler: { (textField) -> Void in
             textField.placeholder = "Type here"
